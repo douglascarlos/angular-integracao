@@ -1,9 +1,9 @@
 export class Tarefa {
 
 	constructor(
-		private id?: number,
-		private nome?: string,
-		private concluida?: boolean) {}
+		public id?: number,
+		public nome?: string,
+		public concluida?: boolean) {}
 
 	public getId(): number {
 		return this.id;
